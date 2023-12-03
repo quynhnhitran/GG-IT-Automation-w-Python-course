@@ -92,3 +92,22 @@
   +  ![image](https://github.com/quynhnhitran/GG-IT-Automation-w-Python-course/assets/128997325/6b91d0ca-de33-42d8-aeb7-2022c29d7af1)
 - Key takeaways
 > VS Code's integration with Docker simplifies the process of container creation, orchestration, and management, enabling developers to build, test, and deploy applications more efficiently. Containers offer a consistent and isolated environment for development, eliminating the “it works on my machine” problem and ensuring seamless collaboration across teams.
+
+# How to Use PIL for Working With Images
+- Python Imaging Library
+- resize an image and save the new image with a new name:
+  ``` from PIL import Image
+im = Image.open("example.jpg")
+new_im = im.resize((640,480))
+new_im.save("example_resized.jpg") ```
+
+-  rotate an image:
+  ``` from PIL import Image
+im = Image.open("example.jpg")
+new_im = im.rotate(90)
+new_im.save("example_rotated.jpg") ```
+
+- combine these operations into just one line that rotates, resizes, and saves:
+  ``` from PIL import Image
+im = Image.open("example.jpg")
+im.rotate(180).resize((640,480)).save("flipped_and_resized.jpg") ```
