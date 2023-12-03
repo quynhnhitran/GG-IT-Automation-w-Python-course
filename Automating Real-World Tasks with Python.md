@@ -84,4 +84,11 @@
 
 ![image](https://github.com/quynhnhitran/GG-IT-Automation-w-Python-course/assets/128997325/5cbf03b3-abdf-4432-868d-b7a60b38b1a3)
 
-
+## 1.6 Build a container using VS Code and Docker
+- DevContainer option:
+  + Microsoft supports  a new open-source standard called DevContainer that extends the use of Docker in the development cycle. Rather than build your container every time you want to test it, with DevContainer, you can actually develop and debug your code inside a container.
+  + DevContainer is also compatible with GitHub Codespaces, which means you can run your IDE in the cloud. Instead of spending time setting up your local development environment just right, you can add a devcontainer.json file to your Git repository and develop in the cloud with a development environment that is fully version controlled.
+  + You can read more about DevContainer here: https://code.visualstudio.com/docs/devcontainers/containers
+  +  ![image](https://github.com/quynhnhitran/GG-IT-Automation-w-Python-course/assets/128997325/6b91d0ca-de33-42d8-aeb7-2022c29d7af1)
+- Key takeaways
+> VS Code's integration with Docker simplifies the process of container creation, orchestration, and management, enabling developers to build, test, and deploy applications more efficiently. Containers offer a consistent and isolated environment for development, eliminating the “it works on my machine” problem and ensuring seamless collaboration across teams.
