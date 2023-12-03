@@ -79,3 +79,9 @@
 ### 3. Create a Dockerfile
 
 ### 4. Build a Docker image
+
+![image](https://github.com/quynhnhitran/GG-IT-Automation-w-Python-course/assets/128997325/a8f57597-1c61-4ecf-82ee-3895fea9e226)
+
+![image](https://github.com/quynhnhitran/GG-IT-Automation-w-Python-course/assets/128997325/5cbf03b3-abdf-4432-868d-b7a60b38b1a3)
+
+
